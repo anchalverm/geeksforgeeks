@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.navbar button{
+    height: 80%;
+    padding: 10px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+.Albums{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.album{
+    border: 1px solid lightgray; 
+    width: 300px;
+
+    
+}
+.album .details{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+.album .thumbnails img{
+width: 300px ;
+}
+.album .details p{
+    text-align: center;
+}
+.album .details .details-footer{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
