@@ -14,15 +14,20 @@
     <section> 
         <div class="about">
         <h1>
-            Album Example
+            Add new Album 
         </h1> 
-    <p>
-        Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.
-    </p>
-<div>
-    <Button> Main call to Action</Button>
-    <button> Secondary Action</button>
-</div>
+    <form id="addAlbum">
+        <label for="ImageURL">Enter Image</label>
+        <input id="ImageURL" type="text"/>
+        <label for="description" >Enter description</label>
+        <textarea id="description" name="message">
+
+        </textarea>
+        <label for="time">Enter time</label>
+        <input id="time" type="number"/>
+
+    </form>
+    <button id="addAlbumButton"> Add Album </button>
 </div>
 </section>
     <section> 
@@ -183,31 +188,7 @@
                                                          </div>
                                                          </div>
                                                          
-                                                         <div class="album">
-                                                            <div class="thumbnails">
-                                                                <img src="https://media.istockphoto.com/photos/premises-liability-book-with-a-court-hummer-picture-id1324909380?b=1&k=20&m=1324909380&s=170667a&w=0&h=JBaFpAH3t2-MU4DEzHiJRS5WxVAWAydeVu3-iWJkGVk=" />
-                                                                 </div>
-                                                                 <div class="details">
-                                                                    <p>
-                                                                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                                                    </p>
-                                                                    <div class="details-footer">
-                                                                        <div>
-                                                                            <button>
-                                                                                view
-                                                                            </button>
-                                                                            <button> 
-                                                                                Edit
-                                                                            </button>
-                                                
-                                                                        </div>
-                                                                        <span> 9min </span>
-                                                                    </div>
-                                                                    
-                                                                
-                                                
-                                                                 </div>
-                                                                 </div>
+                                                         
                                                                  
                                                                  <div class="album">
                                                                     <div class="thumbnails">
@@ -562,6 +543,7 @@
         </div>  
     </section>
     <section> Footer </section>
+    <script src="script.js"></script>
 </body>
         
     
