@@ -64,8 +64,8 @@ userDiv.id=user.id;
 
  const userDetailsDiv=document.createElement('div');
  userDetailsDiv.className="user-details";
-const heading=document.createElement('h2');
- heading.textContent=' ${user.title} ${user.firstname} ${user.lastname}';
+ const heading=document.createElement('h2');
+ heading.textContent=' ${user.title} ${user.firstName} ${user.lastName}';
  userDetailsDiv.appendChild(heading);
 
  const button=document.createElement('button');
